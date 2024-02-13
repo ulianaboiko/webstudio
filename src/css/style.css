@@ -9,10 +9,23 @@ p {
 }
 button {
   background-color: #2196f3;
+  color: #ffffff;
 }
 .team {
   background-color: #f5f4fa;
 }
-h2 h3 {
+h2 h3 nav {
   color: #212121;
+}
+.ad {
+  color: #757575;
+}
+.addres {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #ffffff;
 }
