@@ -1,31 +1,9 @@
-.efect {
-  background-color: #2f303a;
-}
-.foot {
-  background-color: #2f303a;
-}
-p {
-  color: #757575;
-}
-button {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-.team {
-  background-color: #f5f4fa;
-}
-h2 h3 nav {
-  color: #212121;
-}
-.ad {
-  color: #757575;
-}
-.addres {
-  color: #ffffff;
-}
-a {
-  text-decoration: none;
-}
-h1 {
-  color: #ffffff;
+:root {
+  --colorTextPrimary: #212121;
+  --colorTextSecondary: #757575;
+  --colorTextAdditional: #ffffff;
+  --colorTextAdditionalProzoruy: rgba(255, 255, 255, 0.6);
+  --colorTextHover: #2196f3;
+  --colorBackgroundPrimary: #2f303a;
+  --colorBackgroundSecondary: #f5f4fa;
 }
