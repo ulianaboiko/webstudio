@@ -7,12 +7,12 @@
   --colorBackgroundPrimary: #2f303a;
   --colorBackgroundSecondary: #f5f4fa;
 }
-body {
+/* body {
   font-family: "Roboto", sans-serif;
-  /* font-family: "Raleway", sans-serif; */
-}
+  font-family: "Raleway", sans-serif;
+} */
 
-/* .logo {
+/* .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
