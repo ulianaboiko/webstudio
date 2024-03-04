@@ -7,34 +7,109 @@
   --colorBackgroundPrimary: #2f303a;
   --colorBackgroundSecondary: #f5f4fa;
 }
-/* body {
-  font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
-} */
 
-/* .raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-} 
- .roboto-regular {
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--colorTextPrimary);
 }
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
+.nav-link {
   font-weight: 500;
-  font-style: normal;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--colorTextPrimary);
 }
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+.nav-link:hover {
+  color: var(--colorTextHover);
 }
-.roboto-black {
-  font-family: "Roboto", sans-serif;
+.address-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--colorTextSecondary);
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--colorTextHover);
+}
+.hero {
+  background-color: var(--colorBackgroundPrimary);
+}
+.hero-title {
   font-weight: 900;
-  font-style: normal;
-} */
+  font-size: 44px;
+  line-height: 1.36364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--colorTextAdditional);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--colorTextAdditional);
+  background-color: var(--colorTextHover);
+}
+.servises-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.servises-text {
+  line-height: 1.71429;
+  color: var(--colorTextSecondary);
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+.teammate-role {
+  font-size: 16px;
+  color: var(--colorTextSecondary);
+}
+.footer {
+  background-color: var(--colorBackgroundPrimary);
+}
+.footer-address {
+  line-height: 1.71429;
+  color: var(--colorTextAdditional);
+}
+.footer-item {
+  line-height: 1.71429;
+  color: var(--colorTextAdditionalProzoruy);
+  text-decoration: none;
+}
+.list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+}
+.list-button:hover {
+  color: var(--colorTextAdditional);
+  background-color: var(--colorTextHover);
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--colorTextSecondary);
+}
