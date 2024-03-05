@@ -54,11 +54,12 @@ body {
   color: var(--colorTextAdditional);
   background-color: var(--colorTextHover);
 }
-.servises-title {
+.advantages-title {
   font-weight: 700;
+  font-size: inherit;
   text-transform: uppercase;
 }
-.servises-text {
+.advantages-text {
   line-height: 1.71429;
   color: var(--colorTextSecondary);
 }
@@ -75,10 +76,12 @@ body {
 .teammate-name {
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
 }
 .teammate-role {
   font-size: 16px;
   color: var(--colorTextSecondary);
+  text-align: center;
 }
 .footer {
   background-color: var(--colorBackgroundPrimary);
@@ -87,16 +90,19 @@ body {
   line-height: 1.71429;
   color: var(--colorTextAdditional);
 }
-.footer-item {
+.footer-link {
   line-height: 1.71429;
   color: var(--colorTextAdditionalProzoruy);
   text-decoration: none;
 }
 .list-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: inherit;
   line-height: 1.625;
   text-align: center;
+  color: inherit;
 }
 .list-button:hover {
   color: var(--colorTextAdditional);
