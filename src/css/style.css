@@ -15,6 +15,18 @@ body {
   letter-spacing: 0.03em;
   color: var(--colorTextPrimary);
 }
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* --------header--------- */
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -33,8 +45,11 @@ body {
 .address-link:hover {
   color: var(--colorTextHover);
 }
+/* ----------------------main--------------- */
 .hero {
   background-color: var(--colorBackgroundPrimary);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -54,19 +69,29 @@ body {
   color: var(--colorTextAdditional);
   background-color: var(--colorTextHover);
 }
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .advantages-title {
   font-weight: 700;
-  font-size: inherit;
   text-transform: uppercase;
 }
 .advantages-text {
   line-height: 1.71429;
   color: var(--colorTextSecondary);
 }
+.work {
+  padding-bottom: 94px;
+}
 .work-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+}
+.team {
+  padding-bottom: 94px;
+  background-color: var(--colorBackgroundSecondary);
 }
 .team-title {
   font-weight: 700;
@@ -83,8 +108,11 @@ body {
   color: var(--colorTextSecondary);
   text-align: center;
 }
+/* ------------------------------footer-------------- */
 .footer {
   background-color: var(--colorBackgroundPrimary);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-address {
   line-height: 1.71429;
@@ -93,7 +121,11 @@ body {
 .footer-link {
   line-height: 1.71429;
   color: var(--colorTextAdditionalProzoruy);
-  text-decoration: none;
+}
+/* ---------------------------Портфоліо-------------------- */
+.projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .list-button {
   font-family: inherit;
