@@ -23,6 +23,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+img {
+  width: 100%;
+  display: block;
+}
 /* --------header--------- */
 .header {
   padding-top: 25px;
@@ -108,6 +112,7 @@ body {
 .advantages-title {
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .advantages-text {
   line-height: 1.71429;
@@ -167,7 +172,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-logo-foto {
+.footer-logo {
   margin-bottom: 20px;
 }
 .footer-address-list {
@@ -218,9 +223,10 @@ body {
   column-gap: 30px;
   row-gap: 30px;
 }
-/* .project {
-  border: 1px solid #eee;
-} */
+.project {
+  /* border: 1px solid #eee; */
+  flex-basis: calc((100% - 60px) / 3);
+}
 .project-photo {
   width: 369px;
   margin-bottom: 20px;
