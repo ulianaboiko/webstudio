@@ -122,7 +122,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--colorBackgroundSecondary);
-  background-image: url(/src/images/advantages/antenna.svg);
+  background-image: url(../images/advantages/antenna.svg);
   margin-bottom: 30px;
 }
 .advantages-item-2::before {
@@ -135,7 +135,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--colorBackgroundSecondary);
-  background-image: url(/src/images/advantages/clock.svg);
+  background-image: url(../images/advantages/clock.svg);
   margin-bottom: 30px;
 }
 .advantages-item-3::before {
@@ -148,7 +148,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--colorBackgroundSecondary);
-  background-image: url(/src/images/advantages/diagram.svg);
+  background-image: url(../images/advantages/diagram.svg);
   margin-bottom: 30px;
 }
 .advantages-item-4:before {
@@ -161,7 +161,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--colorBackgroundSecondary);
-  background-image: url(/src/images/advantages/astronaut.svg);
+  background-image: url(../images/advantages/astronaut.svg);
   margin-bottom: 30px;
 }
 .advantages-title {
