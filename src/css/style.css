@@ -109,6 +109,61 @@ img {
   justify-content: space-between;
   gap: 30px;
 }
+.advantages-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.advantages-item-1::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 25px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--colorBackgroundSecondary);
+  background-image: url(/src/images/advantages/antenna.svg);
+  margin-bottom: 30px;
+}
+.advantages-item-2::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 25px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--colorBackgroundSecondary);
+  background-image: url(/src/images/advantages/clock.svg);
+  margin-bottom: 30px;
+}
+.advantages-item-3::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 25px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--colorBackgroundSecondary);
+  background-image: url(/src/images/advantages/diagram.svg);
+  margin-bottom: 30px;
+}
+.advantages-item-4:before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 25px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--colorBackgroundSecondary);
+  background-image: url(/src/images/advantages/astronaut.svg);
+  margin-bottom: 30px;
+}
 .advantages-title {
   font-weight: 700;
   text-transform: uppercase;
@@ -130,6 +185,10 @@ img {
 .work-images {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
+}
+.work-foto {
+  flex-basis: calc((100% - 60px) / 3);
 }
 .team {
   padding-top: 94px;
@@ -149,6 +208,7 @@ img {
 .teammate {
   background-color: var(--colorTextAdditional);
   border-radius: 0 0 4px 4px;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .teammate-foto {
   width: 270px;
@@ -174,6 +234,7 @@ img {
 }
 .footer-logo {
   margin-bottom: 20px;
+  display: inline-block;
 }
 .footer-address-list {
   display: flex;
