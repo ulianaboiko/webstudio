@@ -112,57 +112,27 @@ img {
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
 }
-.advantages-item-1::before {
+.advantages-item::before {
   content: "";
-  display: inline-block;
-  width: 270px;
+  display: block;
   height: 120px;
   border-radius: 4px;
-  padding: 25px 100px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--colorBackgroundSecondary);
-  background-image: url(../images/advantages/antenna.svg);
   margin-bottom: 30px;
+}
+.advantages-item-1::before {
+  background-image: url(../images/advantages/antenna.svg);
 }
 .advantages-item-2::before {
-  content: "";
-  display: inline-block;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  padding: 25px 100px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--colorBackgroundSecondary);
   background-image: url(../images/advantages/clock.svg);
-  margin-bottom: 30px;
 }
 .advantages-item-3::before {
-  content: "";
-  display: inline-block;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  padding: 25px 100px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--colorBackgroundSecondary);
   background-image: url(../images/advantages/diagram.svg);
-  margin-bottom: 30px;
 }
 .advantages-item-4:before {
-  content: "";
-  display: inline-block;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  padding: 25px 100px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--colorBackgroundSecondary);
   background-image: url(../images/advantages/astronaut.svg);
-  margin-bottom: 30px;
 }
 .advantages-title {
   font-weight: 700;
@@ -209,6 +179,8 @@ img {
   background-color: var(--colorTextAdditional);
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 90px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 .teammate-foto {
   width: 270px;
@@ -276,6 +248,8 @@ img {
 .list-button:hover {
   color: var(--colorTextAdditional);
   background-color: var(--colorTextHover);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 .projects-contanier {
   display: flex;
@@ -287,6 +261,8 @@ img {
 .project {
   /* border: 1px solid #eee; */
   flex-basis: calc((100% - 60px) / 3);
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 .project-photo {
   width: 369px;
