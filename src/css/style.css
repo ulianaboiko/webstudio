@@ -7,6 +7,7 @@
   --colorBackgroundPrimary: #2f303a;
   --colorBackgroundSecondary: #f5f4fa;
   --colorBorder: #eee;
+  --colorIcons: #afb1b8;
 }
 
 body {
@@ -66,6 +67,10 @@ img {
 .address-link:hover {
   color: var(--colorTextHover);
 }
+.address-icon {
+  fill: var(--colorTextSecondary);
+}
+
 /* ----------------------main--------------- */
 .hero {
   background-color: var(--colorBackgroundPrimary);
@@ -189,7 +194,6 @@ img {
   padding-bottom: 30px;
 }
 .teammate-foto {
-  width: 270px;
   margin-bottom: 30px;
 }
 .teammate-name {
@@ -202,6 +206,59 @@ img {
   font-size: 16px;
   color: var(--colorTextSecondary);
   text-align: center;
+  margin-bottom: 10px;
+}
+.temmate-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.teammate-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+}
+.temmate-item:hover {
+  border-radius: 50%;
+  background-color: var(--colorTextHover);
+}
+.temmate-icon {
+  fill: var(--colorIcons);
+  height: 20px;
+  width: 20px;
+  margin: 12px;
+}
+.temmate-icon:hover {
+  fill: var(--colorTextAdditional);
+}
+/* --------------------------------clients------------------- */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  gap: 30px;
+}
+.clients-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--colorIcons);
+  padding: 16px 32px;
+}
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  fill: var(--colorIcons);
 }
 /* ------------------------------footer-------------- */
 .footer {
