@@ -70,6 +70,17 @@ img {
 .address-icon {
   fill: var(--colorTextSecondary);
 }
+.address-link:hover .address-icon {
+  fill: var(--colorTextHover);
+}
+.address-icon-one {
+  width: 16px;
+  height: 12px;
+}
+.address-icon-two {
+  width: 10px;
+  height: 16px;
+}
 
 /* ----------------------main--------------- */
 .hero {
@@ -221,7 +232,7 @@ img {
   height: 44px;
   background-color: #ffffff;
 }
-.temmate-item:hover {
+.temmate-item > .teammate-link:hover {
   border-radius: 50%;
   background-color: var(--colorTextHover);
 }
@@ -231,7 +242,7 @@ img {
   width: 20px;
   margin: 12px;
 }
-.temmate-icon:hover {
+.temmate-item:hover > .temmate-icon:hover {
   fill: var(--colorTextAdditional);
 }
 /* --------------------------------clients------------------- */
@@ -266,6 +277,16 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-container {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.footer-logo-and-address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .footer-logo {
   margin-bottom: 20px;
   display: inline-block;
@@ -282,6 +303,37 @@ img {
 .footer-link {
   line-height: 1.71429;
   color: var(--colorTextAdditionalProzoruy);
+}
+.footer-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--colorTextAdditional);
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-icons-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.icons-item {
+  height: 44px;
+  width: 44px;
+  background-color: var(--colorTextAdditional);
+  opacity: 0.1;
+  border-radius: 50%;
+}
+.icons-item .footer-icon {
+  fill: var(--colorTextAdditional);
+}
+.footer-icon {
+  height: 20px;
+  width: 20px;
+  fill: var(--colorTextAdditional);
+  padding: 12px;
 }
 /* ---------------------------Портфоліо-------------------- */
 .projects {
