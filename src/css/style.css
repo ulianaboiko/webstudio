@@ -56,7 +56,7 @@ img {
 .header-address-list {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 .address-link {
   font-weight: 500;
@@ -64,22 +64,24 @@ img {
   color: var(--colorTextSecondary);
   text-decoration: none;
 }
-.address-link:hover {
+.address-item:hover .address-link {
   color: var(--colorTextHover);
 }
 .address-icon {
   fill: var(--colorTextSecondary);
 }
-.address-link:hover .address-icon {
+.address-item:hover .address-icon {
   fill: var(--colorTextHover);
 }
 .address-icon-one {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
 }
 .address-icon-two {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
 }
 
 /* ----------------------main--------------- */
@@ -232,7 +234,8 @@ img {
   height: 44px;
   background-color: #ffffff;
 }
-.temmate-item > .teammate-link:hover {
+.temmate-item:hover {
+  border: 1px solid var(--colorTextHover);
   border-radius: 50%;
   background-color: var(--colorTextHover);
 }
@@ -242,7 +245,7 @@ img {
   width: 20px;
   margin: 12px;
 }
-.temmate-item:hover > .temmate-icon:hover {
+.temmate-item:hover .temmate-icon:hover {
   fill: var(--colorTextAdditional);
 }
 /* --------------------------------clients------------------- */
@@ -263,9 +266,17 @@ img {
 .clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid var(--colorIcons);
   padding: 16px 32px;
+  border: 1px solid var(--colorIcons);
 }
+
+.clients-link:hover .clients-icon {
+  fill: var(--colorTextHover);
+}
+.clients-item:hover {
+  border: 1px solid var(--colorTextHover);
+}
+
 .clients-icon {
   width: 106px;
   height: 60px;
@@ -326,8 +337,9 @@ img {
   opacity: 0.1;
   border-radius: 50%;
 }
-.icons-item .footer-icon {
-  fill: var(--colorTextAdditional);
+.icon-link {
+  height: 0;
+  width: 0;
 }
 .footer-icon {
   height: 20px;
