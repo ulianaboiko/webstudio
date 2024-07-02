@@ -338,8 +338,15 @@ img {
   border-radius: 50%;
 }
 .icon-link {
-  height: 0;
-  width: 0;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  background-color: var(--colorTextAdditional);
+  padding: 12px;
+  border-radius: 50%;
+}
+.icon-link:hover .icons-item {
+  background-color: var(--colorTextHover);
 }
 .footer-icon {
   height: 20px;
