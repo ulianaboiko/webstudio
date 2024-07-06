@@ -58,6 +58,9 @@ img {
   align-items: center;
   gap: 30px;
 }
+.address-item {
+  align-self: center;
+}
 .address-link {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -85,6 +88,7 @@ img {
 }
 
 /* ----------------------main--------------- */
+/* ------------------hero-------------- */
 .hero {
   background-color: var(--colorBackgroundPrimary);
   background-image: linear-gradient(to right, #2f303a42, #2f303a42),
@@ -123,6 +127,7 @@ img {
   padding: 10px 32px;
   border-radius: 4px;
 }
+/* --------------------------------advantages-------------------------- */
 .advantages {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -166,6 +171,7 @@ img {
   line-height: 1.71429;
   color: var(--colorTextSecondary);
 }
+/* ------------------------------------work---------------------------- */
 .work {
   padding-bottom: 94px;
 }
@@ -180,9 +186,27 @@ img {
   justify-content: space-between;
   gap: 30px;
 }
+.work-img-plus-foto {
+  position: relative;
+}
 .work-foto {
   flex-basis: calc((100% - 60px) / 3);
 }
+.work-name {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--colorTextAdditional);
+  background-color: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* -------------------------------------team-------------------------------- */
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -230,25 +254,24 @@ img {
   padding-right: 32px;
 }
 .teammate-link {
-  width: 44px;
-  height: 44px;
+  display: block;
   background-color: #ffffff;
-}
-.temmate-item:hover {
-  border: 1px solid var(--colorTextHover);
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
+}
+.temmate-icon:hover {
   background-color: var(--colorTextHover);
+  fill: var(--colorTextAdditional);
 }
 .temmate-icon {
   fill: var(--colorIcons);
-  height: 20px;
-  width: 20px;
-  margin: 12px;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  border-radius: 50%;
 }
-.temmate-item:hover .temmate-icon:hover {
-  fill: var(--colorTextAdditional);
-}
-/* --------------------------------clients------------------- */
+/* --------------------------------clients------------------------------- */
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -263,26 +286,28 @@ img {
   display: flex;
   gap: 30px;
 }
-.clients-item {
+.clients-link {
+  display: block;
   width: 170px;
   height: 92px;
   padding: 16px 32px;
   border: 1px solid var(--colorIcons);
+  border-radius: 4px;
+  flex-basis: calc((100% - 150px) / 6);
 }
 
 .clients-link:hover .clients-icon {
   fill: var(--colorTextHover);
 }
-.clients-item:hover {
+.clients-link:hover {
   border: 1px solid var(--colorTextHover);
 }
-
 .clients-icon {
   width: 106px;
   height: 60px;
   fill: var(--colorIcons);
 }
-/* ------------------------------footer-------------- */
+/* ------------------------------footer-------------------------------- */
 .footer {
   background-color: var(--colorBackgroundPrimary);
   padding-top: 60px;
@@ -337,7 +362,7 @@ img {
   opacity: 0.1;
   border-radius: 50%;
 }
-.icon-link {
+.icons-link {
   height: 44px;
   width: 44px;
   padding: 12px;
@@ -345,14 +370,13 @@ img {
   padding: 12px;
   border-radius: 50%;
 }
-.icon-link:hover .icons-item {
+.footer-icon:hover {
   background-color: var(--colorTextHover);
 }
 .footer-icon {
-  height: 20px;
-  width: 20px;
   fill: var(--colorTextAdditional);
-  padding: 12px;
+  width: 20px;
+  height: 20px;
 }
 /* ---------------------------Портфоліо-------------------- */
 .projects {
