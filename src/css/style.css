@@ -8,6 +8,7 @@
   --colorBackgroundSecondary: #f5f4fa;
   --colorBorder: #eee;
   --colorIcons: #afb1b8;
+  --colorIconsFooter: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -57,9 +58,6 @@ img {
   display: flex;
   align-items: center;
   gap: 30px;
-}
-.address-item {
-  align-self: center;
 }
 .address-link {
   font-weight: 500;
@@ -245,7 +243,7 @@ img {
   text-align: center;
   margin-bottom: 10px;
 }
-.temmate-list {
+.teammate-list {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -260,11 +258,11 @@ img {
   width: 44px;
   border-radius: 50%;
 }
-.temmate-icon:hover {
+.teammate-icon:hover {
   background-color: var(--colorTextHover);
   fill: var(--colorTextAdditional);
 }
-.temmate-icon {
+.teammate-icon {
   fill: var(--colorIcons);
   height: 44px;
   width: 44px;
@@ -355,22 +353,15 @@ img {
   gap: 10px;
   align-items: center;
 }
-.icons-item {
-  height: 44px;
-  width: 44px;
-  background-color: var(--colorTextAdditional);
-  opacity: 0.1;
-  border-radius: 50%;
-}
 .icons-link {
+  display: block;
   height: 44px;
   width: 44px;
-  padding: 12px;
-  background-color: var(--colorTextAdditional);
-  padding: 12px;
+  background-color: var(--colorIconsFooter);
   border-radius: 50%;
+  padding: 12px;
 }
-.footer-icon:hover {
+.icons-link:hover {
   background-color: var(--colorTextHover);
 }
 .footer-icon {
