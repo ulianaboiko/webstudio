@@ -74,9 +74,8 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-button">Замовити послугу</button>
 
-          <button class="btn-open btn" data-modal-open>Відкрити</button>
+          <button class="hero-button" data-modal-open>Замовити послугу</button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button class="btn-close btn" data-modal-close>
@@ -92,11 +91,11 @@
                 </h2>
                 <div class="form-contacts">
                   <label for="name" class="form-label">Ім'я</label>
-                  <input type="text" id="name" class="form-input" />
+                  <input type="text" id="name" class="form-input" required />
                   <label for="tel" class="form-label">Телефон</label>
-                  <input type="tel" id="tel" class="form-input" />
+                  <input type="number" id="tel" class="form-input" required />
                   <label for="mail" class="form-label">Пошта</label>
-                  <input type="email" id="mail" class="form-input" />
+                  <input type="email" id="mail" class="form-input" required />
                   <label for="coment" class="form-label">Коментар</label>
                   <textarea
                     name="coment"
@@ -106,11 +105,16 @@
                   ></textarea>
 
                   <div class="form-check-and-text">
-                    <input type="checkbox" class="form-inp-checkbox" />
-                    <p class="checkbox-text">
+                    <input
+                      type="checkbox"
+                      class="form-inp-checkbox"
+                      id="dogovir"
+                      required
+                    />
+                    <label class="checkbox-label" for="dogovir">
                       Погоджуюся з розсилкою та приймаю
                       <a href="#" class="checkbox-link">Умови договору</a>
-                    </p>
+                    </label>
                   </div>
                 </div>
                 <button type="submit" class="modal-btn-submit">
@@ -534,6 +538,7 @@
               class="footer-input"
               id="email"
               placeholder="E-mail"
+              required
             />
             <button type="submit" class="footer-btn-submit">
               Підписатися
@@ -543,5 +548,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./src/js/modal.js"></script>
   </body>
 </html>

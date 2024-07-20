@@ -200,6 +200,13 @@ img {
   width: 448px;
   height: 40px;
 }
+.form-input:hover,
+.form-textarea:hover {
+  border-color: var(--colorTextHover);
+}
+.form-input,
+.form-textarea {
+}
 .form-textarea {
   border: 1px solid var(--colorFormInput);
   border-radius: 4px;
@@ -219,7 +226,7 @@ img {
   align-items: center;
   gap: 10px;
 }
-.checkbox-text {
+.checkbox-label {
   line-height: 1.71429;
   letter-spacing: 0.03em;
   color: var(--colorTextSecondary);
