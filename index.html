@@ -91,11 +91,32 @@
                 </h2>
                 <div class="form-contacts">
                   <label for="name" class="form-label">Ім'я</label>
-                  <input type="text" id="name" class="form-input" required />
+                  <div class="form-contact">
+                    <input type="text" id="name" class="form-input" required />
+                    <img
+                      src="./src/images/icons/blackperson.svg"
+                      alt="Користувач"
+                      class="form-img"
+                    />
+                  </div>
                   <label for="tel" class="form-label">Телефон</label>
-                  <input type="number" id="tel" class="form-input" required />
+                  <div class="form-contact">
+                    <input type="number" id="tel" class="form-input" required />
+                    <img
+                      src="./src/images/icons/blackphone.svg"
+                      alt="Телефон"
+                      class="form-img"
+                    />
+                  </div>
                   <label for="mail" class="form-label">Пошта</label>
-                  <input type="email" id="mail" class="form-input" required />
+                  <div class="form-contact">
+                    <input type="email" id="mail" class="form-input" required />
+                    <img
+                      src="./src/images/icons/blackemail.svg"
+                      alt="Пошта"
+                      class="form-img"
+                    />
+                  </div>
                   <label for="coment" class="form-label">Коментар</label>
                   <textarea
                     name="coment"
@@ -532,18 +553,24 @@
         <div class="footer-contacts">
           <form action="#" class="footer-form">
             <h2 class="form-title">Підпишіться на розсилку</h2>
-            <label hidden for="email" class="footer-label">E-mail</label>
-            <input
-              type="email"
-              class="footer-input"
-              id="email"
-              placeholder="E-mail"
-              required
-            />
-            <button type="submit" class="footer-btn-submit">
-              Підписатися
-              <!-- <img src="" alt="Відправити" /> -->
-            </button>
+            <div class="footer-contact">
+              <label hidden for="email" class="footer-label">E-mail</label>
+              <input
+                type="email"
+                class="footer-input"
+                id="email"
+                placeholder="E-mail"
+                required
+              />
+              <button type="submit" class="footer-btn-submit">
+                Підписатися
+                <img
+                  src="./src/images/icons/send.svg"
+                  alt="Відправити"
+                  class="footer-btn-img"
+                />
+              </button>
+            </div>
           </form>
         </div>
       </div>
