@@ -77,7 +77,7 @@
           <button class="hero-button">Замовити послугу</button>
 
           <button class="btn-open btn" data-modal-open>Відкрити</button>
-          <div class="backdrop" data-modal>
+          <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button class="btn-close btn" data-modal-close>
                 <img
@@ -104,12 +104,15 @@
                     class="form-textarea"
                     placeholder="Введіть текст"
                   ></textarea>
+
+                  <div class="form-check-and-text">
+                    <input type="checkbox" class="form-inp-checkbox" />
+                    <p class="checkbox-text">
+                      Погоджуюся з розсилкою та приймаю
+                      <a href="#" class="checkbox-link">Умови договору</a>
+                    </p>
+                  </div>
                 </div>
-                <input type="checkbox" class="form-inp-checkbox" />
-                <p class="checkbox-text">
-                  Погоджуюся з розсилкою та приймаю
-                  <a href="#" class="checkbox-link">Умови договору</a>
-                </p>
                 <button type="submit" class="modal-btn-submit">
                   Відправити
                 </button>
@@ -521,6 +524,22 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-contacts">
+          <form action="#" class="footer-form">
+            <h2 class="form-title">Підпишіться на розсилку</h2>
+            <label hidden for="email" class="footer-label">E-mail</label>
+            <input
+              type="email"
+              class="footer-input"
+              id="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-btn-submit">
+              Підписатися
+              <!-- <img src="" alt="Відправити" /> -->
+            </button>
+          </form>
         </div>
       </div>
     </footer>
