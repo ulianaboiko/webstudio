@@ -613,6 +613,25 @@ img {
 .project-photo {
   width: 369px;
   margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.project-photo:hover .project-overlay {
+  transform: translate(0);
+}
+.project-overlay {
+  padding: 65px 25px;
+  background-color: #2195f3da;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%);
+
+  font-size: 18px;
+  line-height: 1.55556;
+  color: var(--colorTextAdditional);
 }
 .project-title {
   font-weight: 700;
