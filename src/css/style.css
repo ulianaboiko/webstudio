@@ -51,9 +51,25 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--colorTextPrimary);
+  position: relative;
 }
 .nav-link:hover {
   color: var(--colorTextHover);
+}
+.nav-link::after {
+  content: "";
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--colorTextHover);
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  opacity: 0;
+}
+.nav-link-active::after,
+.nav-link:hover::after {
+  opacity: 1;
 }
 .header-address-list {
   display: flex;
