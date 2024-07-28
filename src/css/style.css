@@ -150,12 +150,10 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
-
 .modal {
   background-color: var(--colorTextAdditional);
   position: absolute;
@@ -580,6 +578,7 @@ img {
 .footer-btn-img {
   width: 24px;
   height: 24px;
+  fill: var(--colorTextAdditional);
 }
 /* ---------------------------Портфоліо-------------------- */
 .projects {
